@@ -1,0 +1,60 @@
+const CONFIG = {
+  // Basic Information
+  valentineName: "Anabel",
+  pageTitle: "Hey Anabel 💕",
+
+  // Landing Page
+  landing: {
+    title: "Hey Anabel 😊",
+    subtitle: "I made something small and cute for you",
+    startButtonText: "Open 💗"
+  },
+
+  // Questions Flow
+  questions: {
+    first: {
+      text: "I have a tiny question for you…",
+      yesBtn: "Okay 👀",
+      noBtn: "I’m nervous 😅",
+      secretAnswer: "Don’t worry, it’s cute I promise 💕"
+    },
+
+    second: {
+      text: "Be honest… do you like our chemistry?",
+      startText: "It’s kinda undeniable 😌",
+      nextBtn: "Next 💗"
+    },
+
+    third: {
+      text: "So… would you like to be my Valentine? No pressure, just vibes 💝",
+      yesBtn: "I’d love that 💕",
+      noBtn: "Still love the vibes 😌"
+    }
+  },
+
+  // Celebration Page
+  celebration: {
+    title: "Hey Valentine 💖",
+    message: "I’m really glad it’s you. Thanks for making me smile 🥰",
+    emojis: "💞😊✨"
+  },
+
+  // Music (optional — safe to leave disabled)
+  music: {
+    enabled: false,
+    autoplay: false,
+    musicUrl: "",
+    startText: "🎵 Play music",
+    stopText: "🔇 Stop music",
+    volume: 0.5
+  },
+
+  // Theme
+  theme: {
+    primaryColor: "#ff6f91",
+    secondaryColor: "#ffc2d1",
+    backgroundColor: "#fff0f5"
+  }
+};
+
+export default CONFIG;
